@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildPro - Premium Construction Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-container" id="loadingContainer">
+        <div class="loading-spinner"></div>
+        <p>BuildPro</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Build<span class="logo-accent">Pro</span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Quote Button -->
+    <button class="floating-quote" id="floatingQuote">Get Free Quote</button>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Build Your Legacy</h1>
+            <p class="hero-subtitle">Premium construction solutions for your dreams</p>
+            <button class="cta-button">Start Your Project</button>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number" data-target="250">0</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="450">0</div>
+                <div class="stat-label">Happy Clients</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="25">0</div>
+                <div class="stat-label">Years of Experience</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="98">0</div>
+                <div class="stat-label">Client Satisfaction %</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About BuildPro</h2>
+            <p class="section-subtitle">Leading the construction industry with excellence</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>With over 25 years of industry experience, BuildPro has established itself as a leader in premium construction services. Our commitment to quality, innovation, and customer satisfaction has earned us the trust of hundreds of clients across residential, commercial, and industrial sectors.</p>
+                    <p>We combine cutting-edge technology with time-honored construction practices to deliver projects that exceed expectations. Every project is a testament to our dedication to excellence and attention to detail.</p>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">🏗️</div>
+                        <h3>Quality Assured</h3>
+                        <p>ISO certified processes ensure highest standards</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⏱️</div>
+                        <h3>On-Time Delivery</h3>
+                        <p>Never miss a deadline with our proven track record</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💰</div>
+                        <h3>Cost Effective</h3>
+                        <p>Premium quality without breaking your budget</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <p class="section-subtitle">What sets us apart from the rest</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Expert Team</h3>
+                    <p>Highly trained professionals with decades of combined experience</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Quality Guarantee</h3>
+                    <p>Every project backed by our comprehensive quality assurance</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Efficient processes ensure timely project completion</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">💡</div>
+                    <h3>Innovation</h3>
+                    <p>Cutting-edge technology and modern construction methods</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Client Focus</h3>
+                    <p>Transparent communication and dedicated support throughout</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Sustainable</h3>
+                    <p>Environmentally responsible practices in all our projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive construction solutions</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Commercial Buildings</h3>
+                    <p>State-of-the-art office spaces and commercial complexes designed for modern business</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Residential Projects</h3>
+                    <p>Luxury homes and residential developments built with precision and elegance</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏭</div>
+                    <h3>Industrial Construction</h3>
+                    <p>Heavy-duty industrial facilities and warehouses with specialized expertise</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Renovation & Restoration</h3>
+                    <p>Expert restoration services to breathe new life into existing structures</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📐</div>
+                    <h3>Design & Planning</h3>
+                    <p>Professional architectural and engineering services for your vision</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👷</div>
+                    <h3>Project Management</h3>
+                    <p>End-to-end project oversight ensuring quality and budget compliance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Showcase of our finest work</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/construction-site.png" alt="Modern Construction Site">
+                    </div>
+                    <div class="project-info">
+                        <h3>Downtown Complex</h3>
+                        <p>Premium commercial complex with 50+ retail spaces</p>
+                        <span class="project-category">Commercial</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/luxury-house.png" alt="Luxury House Under Construction">
+                    </div>
+                    <div class="project-info">
+                        <h3>Luxury Estates</h3>
+                        <p>High-end residential development with 30 units</p>
+                        <span class="project-category">Residential</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/office-building.png" alt="Modern Office Building at Sunset">
+                    </div>
+                    <div class="project-info">
+                        <h3>Corporate Headquarters</h3>
+                        <p>Modern office tower with sustainable features</p>
+                        <span class="project-category">Office</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <p class="section-subtitle">Flexible options for every project size</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$25,000</div>
+                    <p class="price-period">Project Base</p>
+                    <ul class="pricing-features">
+                        <li>✓ Basic Consultation</li>
+                        <li>✓ Project Planning</li>
+                        <li>✓ Small-Scale Projects</li>
+                        <li>✓ Email Support</li>
+                        <li>✗ Dedicated Manager</li>
+                    </ul>
+                    <button class="pricing-btn">Choose Plan</button>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">$75,000</div>
+                    <p class="price-period">Project Base</p>
+                    <ul class="pricing-features">
+                        <li>✓ Advanced Consultation</li>
+                        <li>✓ Detailed Planning</li>
+                        <li>✓ Medium-Scale Projects</li>
+                        <li>✓ Priority Support</li>
+                        <li>✓ Dedicated Manager</li>
+                    </ul>
+                    <button class="pricing-btn">Choose Plan</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$150,000+</div>
+                    <p class="price-period">Custom Pricing</p>
+                    <ul class="pricing-features">
+                        <li>✓ Full Consultation Suite</li>
+                        <li>✓ Custom Solutions</li>
+                        <li>✓ Large-Scale Projects</li>
+                        <li>✓ 24/7 Support</li>
+                        <li>✓ Executive Manager</li>
+                    </ul>
+                    <button class="pricing-btn">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <p class="section-subtitle">What our satisfied clients say</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"BuildPro exceeded our expectations on every level. Professional, timely, and exceptional quality. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JT</div>
+                        <div>
+                            <h4>John Thompson</h4>
+                            <p>CEO, Tech Solutions Corp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The team was transparent, communicative, and delivered our dream home perfectly. Worth every penny!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div>
+                            <h4>Sarah Martinez</h4>
+                            <p>Homeowner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Outstanding project management and attention to detail. Our warehouse was completed on time and under budget."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DK</div>
+                        <div>
+                            <h4>David Kim</h4>
+                            <p>Logistics Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Find answers to common questions</p>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How long does a typical project take?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Project timelines vary depending on complexity and scale. Small renovations typically take 2-4 months, while larger commercial projects may span 12-24 months. We provide detailed timelines during the consultation phase.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What warranties do you offer?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We provide comprehensive warranties including structural integrity (10 years), workmanship (5 years), and materials (manufacturer specifications). All warranties are documented in your contract.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you handle permits and inspections?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we manage all permits and coordinate with local authorities for inspections. Our team ensures full compliance with building codes and regulations.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can you work within my budget?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. We work closely with clients to create solutions that fit their budget. We'll discuss cost-effective alternatives and prioritize spending based on your needs.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you offer sustainable building options?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we specialize in sustainable construction using eco-friendly materials and energy-efficient techniques. LEED certification is available for qualifying projects.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I get started with a quote?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Simply fill out our contact form or call us at +1 (555) 123-4567. We'll schedule a free consultation to discuss your project and provide a detailed estimate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let&apos;s discuss your project</p>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Service</option>
+                                <option value="commercial">Commercial Building</option>
+                                <option value="residential">Residential Project</option>
+                                <option value="industrial">Industrial Construction</option>
+                                <option value="renovation">Renovation & Restoration</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Project Details" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@buildpro.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Main Street<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>BuildPro</h4>
+                    <p>Leading construction solutions since 2000</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">in</a>
+                        <a href="#" class="social-icon">tw</a>
+                        <a href="#" class="social-icon">ig</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BuildPro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
